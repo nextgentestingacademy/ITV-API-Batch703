@@ -38,9 +38,5 @@ public class FSProdTest extends ConfigReader{
 		.get("products/" + prodId)
 		.then()
 			.statusCode(200);
-		
-		
 	}
-	
 }
-
